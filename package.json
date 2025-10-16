@@ -13,7 +13,7 @@
   "author": "bmb tech",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "baileys": "npm:baileys-mod",
+    "@whiskeysockets/baileys": "npm:dgxeon-soket@^3.0.0",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "megajs": "^1.1.0",

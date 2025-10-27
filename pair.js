@@ -75,36 +75,36 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "POPKID;;;" + string_session;
+                        let md = "QUEEN-HANI;;;" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `╭━━━━━━━━━━━━━━━━━━━━━╮
-┃  🚀 POPKID XTR USER ✅  ┃
+┃  🚀 QUEEN HANI USER ✅  ┃
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 
-👋🏻 Hello there,POPKID-XTR User!
+👋🏻 Hello there,QUEEN HANI User!
 
 > ⚠️ *Do not share your session ID with your GF!* 🤖
 
-✅ **Thanks for using POPKID-XTR**  🚀
+✅ **Thanks for using QUEEN HANI**  🚀
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 
 📢 **Join our WhatsApp Channel:**
-🔗 https://whatsapp.com/channel/0029VbB6d0KKAwEdvcgqrH26
+🔗 https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y
 
 ⭐ **Don't forget to fork the repo:**
-🔗 https://github.com/kenyanpopkid/POPKID-XTR
+🔗 https://github.com/dachtech/QUEEN-HANI-GTD/
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 
-> *© POPKID DEVS 🔰*`; 
+> *© QUEEN HANI 🔰*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "popkid xtr",
+title: "QUEEN HANI",
 thumbnailUrl: "https://i.ibb.co/6cBHT8tC/popkid.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbB6d0KKAwEdvcgqrH26",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -113,14 +113,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy NOVA-XMD*\n\n ◦ *Github:* https://github.com/kenyanpopkid/POPKID-XTR`;
+                            let desc = `*Don't Share with anyone this code use for deploy QUEEN HANI*\n\n ◦ *Github:* https://github.com/dachtech/QUEEN-HANI-GTD/`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "POPKID-XTR",
+title: "QUEEN HANI",
 thumbnailUrl: "https://i.ibb.co/6cBHT8tC/popkid.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbB6d0KKAwEdvcgqrH26",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true

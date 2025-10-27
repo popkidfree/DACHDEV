@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>POPKID-XTR</title>
+  <title>QUEEN HANI</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     :root {
@@ -19,10 +19,20 @@
     body {
       height: 100vh;
       font-family: 'Inter', sans-serif;
-      background: radial-gradient(circle at 20% 20%, #00111a, #000 90%);
+      background: url('https://files.catbox.moe/spqe07.jpg') center center / cover no-repeat fixed;
       color: var(--text-light);
       overflow: hidden;
       perspective: 1000px;
+    }
+
+    /* Optional overlay for better text contrast */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.55);
+      z-index: 0;
     }
 
     /* Background Canvases */
@@ -32,9 +42,8 @@
       top: 0; left: 0;
       width: 100vw; height: 100vh;
       pointer-events: none;
+      z-index: 1;
     }
-    #particles-canvas { z-index: 0; }
-    #matrixCanvas { z-index: 1; mix-blend-mode: screen; }
 
     /* Neon Container */
     .container {
@@ -68,7 +77,7 @@
       height: 100px;
       margin: 0 auto 20px;
       border-radius: 50%;
-      background: url('https://i.ibb.co/6cBHT8tC/popkid.jpg') center/cover no-repeat;
+      background: url('https://files.catbox.moe/spqe07.jpg') center/cover no-repeat;
       border: 3px solid var(--accent);
       box-shadow: 0 0 25px var(--accent), 0 0 50px var(--accent2);
       animation: floatLogo 4s ease-in-out infinite, spinGlow 8s linear infinite;
@@ -160,23 +169,22 @@
 
   <div class="container">
     <div class="logo"></div>
-    <h1 class="title">POPKID XTR SESSION_ID</h1>
+    <h1 class="title">QUEEN HANI SESSION_ID</h1>
     <div class="button-container">
       <a href="/qr" class="button" target="_blank"><i class="fas fa-qrcode"></i> QR CODE</a>
       <a href="/pair" class="button" target="_blank"><i class="fas fa-link"></i> PAIRING CODE</a>
-      <a href="https://github.com/kenyanpopkid/POPKID-XTR/fork" class="button" target="_blank"><i class="fas fa-code-branch"></i> FORK BOT</a>
-      <a href="https://github.com/kenyanpopkid" class="button" target="_blank"><i class="fas fa-user-plus"></i> FOLLOW DEV</a>
-      <a href="https://whatsapp.com/channel/0029VbB6d0KKAwEdvcgqrH26" class="button" target="_blank"><i class="fab fa-whatsapp"></i> WHATSAPP</a>
-      <a href="https://github.com/kenyanpopkid/POPKID-XTR" class="button" target="_blank"><i class="fas fa-bug"></i> REPORT ERROR</a>
+      <a href="https://github.com/dachtech/QUEEN-HANI-GTD//fork" class="button" target="_blank"><i class="fas fa-code-branch"></i> FORK BOT</a>
+      <a href="https://github.com/dachtech" class="button" target="_blank"><i class="fas fa-user-plus"></i> FOLLOW DEV</a>
+      <a href="https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y" class="button" target="_blank"><i class="fab fa-whatsapp"></i> WHATSAPP</a>
+      <a href="https://github.com/dachtech/QUEEN-HANI-GTD/" class="button" target="_blank"><i class="fas fa-bug"></i> REPORT ERROR</a>
     </div>
     <div class="footer">
-      POOKID-XTR &copy; <span id="currentYear"></span>
+      QUEEN HANI &copy; <span id="currentYear"></span>
     </div>
   </div>
 
   <script>
     document.getElementById("currentYear").textContent = new Date().getFullYear();
-    // ✅ Keep your particle + matrix script unchanged here
   </script>
 </body>
 </html>

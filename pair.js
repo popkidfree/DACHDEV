@@ -103,7 +103,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "QUEEN HANI",
-thumbnailUrl: "https://i.ibb.co/6cBHT8tC/popkid.jpg",
+thumbnailUrl: "https://files.catbox.moe/spqe07.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -119,7 +119,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "QUEEN HANI",
-thumbnailUrl: "https://i.ibb.co/6cBHT8tC/popkid.jpg",
+thumbnailUrl: "https://files.catbox.moe/spqe07.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y",
 mediaType: 2,
 renderLargerThumbnail: true,
